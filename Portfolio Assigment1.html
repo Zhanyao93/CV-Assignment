@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">  
+    <title>Lim Zhan Yao's Portfolio</title>
+</head>
+<body>
+    <div class="layout-grid">
+
+        <div class="f-container" id="profile-box">
+            <img id="profile-pic" src="ProfilePic.jfif" alt="Profile Picture">
+            <div class="f-container" id="profile-f-box">
+                <h1>Lim Zhan Yao</h1>
+                <h3>Zhanyao1993@gmail.com</h3>
+                <hr id="grey-hr">
+                <h3 style="text-decoration: underline;">About Me </h3>
+                <p>Interest in technolgy sector, loves challenges and problem solving </p>
+            </div>
+        </div>
+
+        <div class="f-container" id="tabs-box">
+            <button onclick="tabClicked(this)" class="tab-button">Experience</button>
+            <button onclick="tabClicked(this)" class="tab-button">Education</button>
+            <button onclick="tabClicked(this)" class="tab-button">Projects</button>
+            <button onclick="tabClicked(this)" class="tab-button">Skills</button>
+        </div>
+        <div class="f-container content-box-box">
+            
+            <div class="f-container content-box" id="experience" style="display: flex;">
+                <div class="content-label">
+                    <h1>Experience</h1>
+                </div>
+
+                <div class="card-wrapper">
+                    <div class="f-container content-card">
+                        <h2>Company Y</h2>
+                        <h3>2019 - 2022</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                    </div>
+
+                    <div class="f-container content-card">
+                        <h2>Company X</h2>
+                        <h3>2018 - 2019</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="f-container content-box" id="education">
+                <div class="content-label">
+                    <h1>Education</h1>
+                </div>
+                <div class="card-wrapper">
+                    <div class="f-container content-card">
+                        <h2>University X</h2>
+                        <h3>2014 - 2018</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-container content-box" id="projects">
+                <div class="content-label">
+                    <h1>Projects</h1>
+                </div>
+                <div class="card-wrapper">
+                    <div class="f-container content-card">
+                        <h2>Project X</h2>
+                        <h3>2020 - 2021</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-container content-box" id="skills">
+                <div class="content-label">
+                    <h1>Skills</h1>
+                </div>
+                
+                <div class="card-wrapper">
+                    <div class="f-container content-card">
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>
